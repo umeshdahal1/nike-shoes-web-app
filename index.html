@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Shoe</title>
+    <!-- Font awesome font cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link to swiper js for slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Link to custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header section starts -->
+
+    <div id="menu-btn" class="fa fa fa-bars"></div>
+
+    <header class="header">
+      <a href="#" class="logo">NIKE</a>
+
+      <nav class="navbar">
+        <a href="#banner">Banner</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+      <p class="credit">&copy; copyright @ 2022</p>
+    </header>
+
+    <!-- Header section ends -->
+
+    <!-- Banner section starts -->
+
+    <section id="banner" class="banner">
+      <div class="content">
+        <span>Upto 50% off</span>
+        <h3>Nike Airmax Shoes</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
+          quia. Dicta modi autem reiciendis tenetur aperiam. Omnis labore
+          facilis ullam!
+        </p>
+        <a href="#" class="btn">Shop now</a>
+      </div>
+
+      <div class="image">
+        <img src="images/banner-product.png" alt="Nike Airmax Banner image" />
+      </div>
+    </section>
+    <!-- Banner section ends -->
+
+    <!-- Products section starts -->
+
+    <section id="products" class="products">
+      <h1 class="heading">Our <span>Products</span></h1>
+
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/product-img1.jpg" alt="Salmon shoes pic" />
+            <h3>Nike ZoomX Invincible Run Flyknit 2</h3>
+            <div class="btn"  data-product="product-1">See more details</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/product-img2.jpg" alt="Salmon shoes pic" />
+            <h3>Nike Versionn 2</h3>
+            <div class="btn"  data-product="product-2">See more details</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/product-img3.jpg" alt="Salmon shoes pic" />
+            <h3>Special Edition Nike</h3>
+            <div class="btn"  data-product="product-3">See more details</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/product-img4.jpg" alt="Salmon shoes pic" />
+            <h3>Dashain Offer! </h3>
+            <div class="btn" data-product="product-4">See more details</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/product-img5.jpg" alt="Salmon shoes pic" />
+            <h3>Nike Max</h3>
+            <div class="btn" data-product="product-5">See more details</div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/product-img6.jpg" alt="Salmon shoes pic" />
+            <h3>Nike Runner</h3>
+            <div class="btn"  data-product="product-6">See more details</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products section ends -->
+
+    <!-- Product preview section starts here -->
+
+    <section class="products-preview-container">
+
+      <div class="product-preview" data-target="product-1">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/product-img1.jpg" alt="The first pic of nike airmax shoe"/>
+        </div>
+        <div class="content">
+          <h3>Nike Airmax</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis non maiores numquam, error doloremque ab quidem repellat culpa perspiciatis?</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <a href="#" class="btn">Buy now!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-2">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/product-img2.jpg" alt="The first pic of nike airmax shoe"/>
+        </div>
+        <div class="content">
+          <h3>Nike Airmax</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis non maiores numquam, error doloremque ab quidem repellat culpa perspiciatis?</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <a href="#" class="btn">Buy now!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-3">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/product-img3.jpg" alt="The first pic of nike airmax shoe"/>
+        </div4>
+        <div class="content">
+          <h3>Nike Airmax</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis non maiores numquam, error doloremque ab quidem repellat culpa perspiciatis?</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <a href="#" class="btn">Buy now!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-4">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/product-img4.jpg" alt="The first pic of nike airmax shoe"/>
+        </div>
+        <div class="content">
+          <h3>Nike Airmax</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis non maiores numquam, error doloremque ab quidem repellat culpa perspiciatis?</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <a href="#" class="btn">Buy now!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-5">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/product-img5.jpg" alt="The first pic of nike airmax shoe"/>
+        </div>
+        <div class="content">
+          <h3>Nike Airmax</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis non maiores numquam, error doloremque ab quidem repellat culpa perspiciatis?</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <a href="#" class="btn">Buy now!</a>
+        </div>
+      </div>
+
+      <div class="product-preview" data-target="product-6">
+        <div class="fas fa-times"></div>
+        <div class="image">
+          <img src="images/product-img6.jpg" alt="The first pic of nike airmax shoe"/>
+        </div>
+        <div class="content">
+          <h3>Nike Airmax</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis non maiores numquam, error doloremque ab quidem repellat culpa perspiciatis?</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <a href="#" class="btn">Buy now!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product preview section ends here -->
+
+    <!-- Services section starts -->
+
+    <section class="service">
+      
+      <div class="box">
+        <i class="fas fa-shipping-fast"></i>
+        <p>Free Delivery</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-redo"></i>
+        <p>10 Days Return</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-headset"></i>
+        <p>24/7 Support</p>
+      </div>
+
+    </section>
+
+    <!-- Services section ends -->
+
+
+    <!-- Reviews section starts -->
+
+    <section id="reviews" class="reviews">
+      <h1 class="heading">Client <span>Reviews</span></h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi blanditiis odio fugiat voluptate ad perspiciatis exercitationem. Sint, ex saepe.</p>
+            <img src="images/pic-1.png" alt="Image of a person (John Doe)">
+            <h3>John Doe</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi blanditiis odio fugiat voluptate ad perspiciatis exercitationem. Sint, ex saepe.</p>
+            <img src="images/pic-2.png" alt="Image of a person (John Doe)">
+            <h3>Jane Doe</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi blanditiis odio fugiat voluptate ad perspiciatis exercitationem. Sint, ex saepe.</p>
+            <img src="images/pic-3.png" alt="Image of a person (John Doe)">
+            <h3>John Doe</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi blanditiis odio fugiat voluptate ad perspiciatis exercitationem. Sint, ex saepe.</p>
+            <img src="images/pic-4.png" alt="Image of a person (John Doe)">
+            <h3>Jane Doe</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi blanditiis odio fugiat voluptate ad perspiciatis exercitationem. Sint, ex saepe.</p>
+            <img src="images/pic-5.png" alt="Image of a person (John Doe)">
+            <h3>John Doe</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi blanditiis odio fugiat voluptate ad perspiciatis exercitationem. Sint, ex saepe.</p>
+            <img src="images/pic-6.png" alt="Image of a person (John Doe)">
+            <h3>Jane Doe</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Reviews section ends -->
+
+    <!-- Contact section starts here -->
+
+    <section id="contact" class="contact">
+      <h1 class="heading"><span>Contact</span> us</h1>
+
+      <div class="row">
+        <form action="">
+          <input type="text" name="name"  id="name" placeholder="Name" class="box"/>
+          <input type="email" name="email"  id="email" placeholder="Email" class="box"/>
+          <input type="number" name="phone"  id="phnoe" placeholder="Phone" class="box"/>
+          <textarea class="box" placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" class="btn"/>
+        </form>
+
+        <div class="contact-info">
+          <h3>Do you have any questions?</h3>
+          <p class="graph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore veritatis delectus enim soluta. Voluptatem autem ab nostrum placeat quis repudiandae!</p>
+          
+          <div class="icons">
+            <i class="fas fa-map"></i>
+            <div class="info">
+              <p>Dreamland, Coding - 12345</p>
+            </div>
+          </div>
+
+          <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <div class="info">
+              <p>info@testing.com</p>
+              <p>support@testing.com</p>
+            </div>
+          </div>
+
+          <div class="icons">
+            <i class="fas fa-phone"></i>
+            <div class="info">
+              <p>+123-456-7890</p>
+              <p>+111-222-7777</p>
+            </div>
+          </div>
+
+          <div class="share">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section ends here -->
+
+
+    <!-- Swiper JS link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Custom JS link -->
+    <script src="js/script.js"> </script>
+  </body>
+</html>
